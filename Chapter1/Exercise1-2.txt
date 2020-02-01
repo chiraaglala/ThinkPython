@@ -1,0 +1,35 @@
+Start the Python interpreter and use it as a calculator.
+
+(1) How many seconds are there in 42 minutes 42 seconds?
+
+(2) How many miles are there in 10 kilometers? Hint: there are 1.61 kilometers in a mile.
+
+(3) If you run a 10 kilometer race in 42 minutes 42 seconds, what is your average pace (time per mile in minutes and seconds)? What is your average speed in miles per hour?
+
+$ python3
+Python 3.5.2 (default, Oct  8 2019, 13:06:37) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> (42*60) + 42
+2562
+>>> # 2562 seconds in 42 minutes 42 seconds
+...
+>>> 10 / 1.61
+6.211180124223602
+>>> # 6.21 miles in 10 kilometers
+...
+>>> ((42*60) + 42)/(10/1.61) 
+412.482
+>>> # 412.482 seconds per mile
+... 
+>>> 412.482 / 60
+6.874700000000001
+>>> # 6.8747 minutes per mile
+... 
+>>> 412.482 - (6*60)
+52.48200000000003
+>>> # 6 minutes 52.482seconds per mile 
+... 
+>>> (10/1.61)/(((42*60)+42)/(60*60))
+8.727653570337614
+>>> # 8.73 miles per hour
