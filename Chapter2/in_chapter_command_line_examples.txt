@@ -1,0 +1,31 @@
+$ python3
+Python 3.5.2 (default, Oct  8 2019, 13:06:37) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> message = 'And now for something completely different'
+>>> n = 17
+>>> pi = 3.141592653589793
+>>> 76trombones = 'big parade'
+  File "<stdin>", line 1
+    76trombones = 'big parade'
+              ^
+SyntaxError: invalid syntax
+>>> more@ = 1000000
+  File "<stdin>", line 1
+    more@ = 1000000
+          ^
+SyntaxError: invalid syntax
+>>> class = 'Advanced Theoretical Zymurgy'
+  File "<stdin>", line 1
+    class = 'Advanced Theoretical Zymurgy'
+          ^
+SyntaxError: invalid syntax
+>>> 42
+42
+>>> n
+17
+>>> n + 25
+42
+>>> n = 17
+>>> print(n)
+17
