@@ -1,0 +1,79 @@
+It is a good idea to read this book in front of a computer so you can try out the examples as you go.
+
+Whenever you are experimenting with a new feature, you should try to make mistakes. For example, in the “Hello, world!” program, what happens if you leave out one of the quotation marks? What if you leave out both? What if you spell print wrong?
+
+This kind of experiment helps you remember what you read; it also helps when you are programming, because you get to know what the error messages mean. It is better to make mistakes now and on purpose than later and accidentally.
+
+(1) In a print statement, what happens if you leave out one of the parentheses, or both?
+
+(2) If you are trying to print a string, what happens if you leave out one of the quotation marks, or both?
+
+(3) You can use a minus sign to make a negative number like -2. What happens if you put a plus sign before a number? What about 2++2?
+
+(4) In math notation, leading zeros are okay, as in 02. What happens if you try this in Python?
+
+(5) What happens if you have two values with no operator between them?
+
+
+Open the terminal or command line interface and start the python interpreter as follows:
+
+$ python3
+Python 3.5.2 (default, Oct  8 2019, 13:06:37) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print'leaving left paranthesis')
+  File "<stdin>", line 1
+    print'leaving left paranthesis')
+                                  ^
+SyntaxError: invalid syntax
+>>> print('leaving right paranthesis'
+... 
+... 
+... # it prompts to finish the print statement
+... )
+leaving right paranthesis
+>>> print'leaving both paranthesis'
+  File "<stdin>", line 1
+    print'leaving both paranthesis'
+                                  ^
+SyntaxError: invalid syntax
+>>> print('the correct use of paranthesis')
+the correct use of paranthesis
+>>> print(leaving left quotation mark')
+  File "<stdin>", line 1
+    print(leaving left quotation mark')
+                     ^
+SyntaxError: invalid syntax
+>>> print('leaving right quotation mark)
+  File "<stdin>", line 1
+    print('leaving right quotation mark)
+                                       ^
+SyntaxError: EOL while scanning string literal
+>>> print(leaving both quotation marks)
+  File "<stdin>", line 1
+    print(leaving both quotation marks)
+                     ^
+SyntaxError: invalid syntax
+>>> print('correct use of quotation marks')
+correct use of quotation marks
+>>> 2++2
+4
+>>> 2 + +2
+4
+>>> 2 + -2
+0
+>>> 02
+  File "<stdin>", line 1
+    02
+     ^
+SyntaxError: invalid token
+>>> 003
+  File "<stdin>", line 1
+    003
+      ^
+SyntaxError: invalid token
+>>> 2 3
+  File "<stdin>", line 1
+    2 3
+      ^
+SyntaxError: invalid syntax
